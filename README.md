@@ -25,7 +25,7 @@ Build a node server which;
 
 ## Time Taken
 
-- 5 hrs
+- 5.5 hrs
 
 ## Tasks for improvement
 
