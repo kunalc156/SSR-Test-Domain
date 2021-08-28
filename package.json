@@ -3,13 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@babel/preset-env": "^7.15.0",
-    "@babel/preset-react": "^7.14.5",
-    "@babel/register": "^7.15.3",
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^11.2.7",
-    "@testing-library/user-event": "^12.8.3",
-    "axios": "^0.21.1",
     "express": "^4.17.1",
     "ignore-styles": "^5.0.1",
     "mongoose": "^6.0.2",
@@ -17,11 +10,7 @@
     "prop-types": "^15.7.2",
     "react": "^15.7.0",
     "react-dom": "^15.7.0",
-    "react-native": "^0.65.1",
-    "react-proptypes": "^1.0.0",
-    "react-router-dom": "^5.2.1",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^2.1.0"
+    "react-proptypes": "^1.0.0"
   },
   "scripts": {
     "start": "node server/index.js",
@@ -56,6 +45,10 @@
     "@babel/preset-env": "^7.12.7",
     "@babel/preset-react": "^7.12.7",
     "@babel/runtime": "^7.12.5",
-    "babel-loader": "^8.2.2"
+    "babel-loader": "^8.2.2",
+    "@babel/register": "^7.15.3",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3"
   }
 }

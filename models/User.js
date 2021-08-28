@@ -43,7 +43,6 @@ const UserSchema = new Schema({
     type: String,
     trim: true,
   },
-
 });
 
 const User = mongoose.model("User", UserSchema);
