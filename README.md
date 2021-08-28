@@ -1,4 +1,4 @@
-# Domain NodeJS test
+# Server Side Rendering NodeJS test
 
 ## Requirements
 
