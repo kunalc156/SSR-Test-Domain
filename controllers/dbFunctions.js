@@ -1,12 +1,13 @@
+/** This file is for DB abstraction  */
 const { User } = require("../models");
 
-async function createData(body) {
+const createData = async (body) => {
   return await User.create(body);
-}
+};
 
-async function updateData(body, params) {
+const updateData = async (body, params) => {
   const updatedUser = await User.findByIdAndUpdate(params.id, { ...body });
   return updatedUser;
-}
+};
 
 module.exports = { createData, updateData };
